@@ -1,0 +1,236 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/geometricpattern-bg.jpg");
+	/* The background image in the above line is from Andrew Kliatskyi on Unsplash.com */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: source-code-pro, monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.center {
+	width: 800px;
+	padding: 2%;
+	margin: 35px auto;
+	background: none;
+	/*this uses opacity of 75% for the background color*/
+	text-align: center;
+}
+
+
+#logo {
+	margin-bottom: 100px;
+	margin-top: 300px;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.4em;
+	margin: 0px auto 10px auto;
+	color: #fff;
+	/* The typeface applied to the text is Source Code Pro Regular from Adobe */
+}
+
+nav {
+	font-size: 1.2 em;
+	width: 400px;
+	margin: 0 auto;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+	/* The typeface applied to the text is Source Code Pro Regular from Adobe */
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px;
+}
+
+a {
+	color: rgb(93, 186, 244);
+	/* The text color specified in the above line was originally dark gray but I changed it to the same color as the text in the logo */
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(180, 206, 222);
+	/* The text color specified in the above line was originally black but I changed it to the same color as the text in the logo */
+	background: none;
+	/* The background property in the above line was originally pink but I removed it*/
+}
+
+.fade-in {
+	animation: fadeIn 3s;
+	/* This is the video tutorial that I used for the fade in animation: https://www.youtube.com/watch?v=UInN6O_nMKs */
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+/* Beginning with the line that starts .fade-in {, every line under and including this line is for the fade in animation */
